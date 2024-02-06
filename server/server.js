@@ -1,6 +1,5 @@
 import express from "express";
 const app = express();
-
 import bodyParser from "body-parser";
 import morgan from "morgan";
 
@@ -34,3 +33,5 @@ const start = async () => {
 };
 
 start();
+
+// MONGO_URL= mongodb+srv://manish:manish99@cluster0.i1jghfj.mongodb.net/?retryWrites=true&w=majority
